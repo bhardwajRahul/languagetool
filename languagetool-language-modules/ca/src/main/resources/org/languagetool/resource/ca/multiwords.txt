@@ -1,5 +1,7 @@
 #Catalan multiwords file used for chunking
 #separatorRegExp=[\t;]
+Ulrich Siegmund;NPMSSP0
+Van Gilse;NPCNSP0
 Canal de Navarrés;NPFSG00
 forma mentis;NCFS000
 Elena Rybakina;NPFSSP0

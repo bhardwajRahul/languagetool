@@ -37,6 +37,7 @@ Barrionuevo	Barrionuevo	NPCNSP0
 Barçagate	Barçagate	NPMSO00
 Basij	Basij	NPFSO00
 Beauharnais	Beauharnais	NPCNSP0
+Beethoven-Haus	Beethoven-Haus	NPFSG00
 Behçet	Behçet	NPCNSP0
 Binibèquer	Binibèquer	NPCSG00
 Bonaigua	Bonaigua	NPFSG00
@@ -113,6 +114,7 @@ Hari	Hari	NPMSG00
 Henkell	Henkell	NPCNSP0
 Henze	Henze	NPCNSP0
 Hiparc	Hiparc	NPMSSP0
+Humperdinck	Humperdinck	NPCNSP0
 Huysmans	Huysmans	NPCNSP0
 ICAM	ICAM	NPMSO00
 ICAN	ICAN	NPMSO00
@@ -183,6 +185,7 @@ Petruixka	Petruixka	NPCNSP0
 Pezeshkian	Pezeshkian	NPCNSP0
 Pfizergate	Pfizergate	NPMSO00
 Philharmonie	Philharmonie	NPFSO00
+Politbarometer	Politbarometer	NPMSO00
 Qatargate	Qatargate	NPMSO00
 Queensferry	Queensferry	NPCSG00
 Quine	Quine	NPCNSP0
@@ -334,6 +337,7 @@ antixineses	antixinès	AQ0FP0
 antixinesos	antixinès	AQ0MP0
 antixinès	antixinès	AQ0MS0
 antixinés	antixinès	AQ0MS0
+antrozoologia	antrozoologia	NCFS000
 anularitat	anularitat	NCFS000
 aquanauta	aquanauta	NCCS000
 aquanautes	aquanauta	NCCP000
@@ -4338,6 +4342,8 @@ reenquadrésseu	reenquadrar	VMSI2P05
 reenquadréssim	reenquadrar	VMSI1P02
 reenquadréssiu	reenquadrar	VMSI2P02
 reenquadrí	reenquadrar	VMIS1S00
+reequilibratge	reequilibratge	NCMS000
+reequilibratges	reequilibratge	NCMP000
 refactoritzacions	refactorització	NCFP000
 refactorització	refactorització	NCFS000
 reglamentista	reglamentista	AQ0CS0

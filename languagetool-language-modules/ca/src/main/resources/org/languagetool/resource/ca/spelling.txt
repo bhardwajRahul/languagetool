@@ -33,6 +33,7 @@ Barrionuevo
 Barçagate
 Basij
 Beauharnais
+Beethoven-Haus
 Behçet
 Binibèquer
 Bonaigua
@@ -109,6 +110,7 @@ Hari
 Henkell
 Henze
 Hiparc
+Humperdinck
 Huysmans
 ICAM
 ICAN
@@ -178,6 +180,7 @@ Petruixka
 Pezeshkian
 Pfizergate
 Philharmonie
+Politbarometer
 Qatargate
 Queensferry
 Quine
@@ -320,6 +323,7 @@ antixineses
 antixinesos
 antixinès
 antixinés
+antrozoologia
 anularitat
 aquanauta
 aquanautes
@@ -3400,6 +3404,8 @@ reenquadrésseu
 reenquadréssim
 reenquadréssiu
 reenquadrí
+reequilibratge
+reequilibratges
 refactoritzacions
 refactorització
 reglamentista

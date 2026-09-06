@@ -984,3 +984,7 @@ sin embargament|sin embargo|sin embarg|sense embargo|sense embarg=tanmateix|no o
 ukiyo-es=ukiyo-e	S'usa com a nom invariable.
 serrà d'Espadà=serra d'Espadà	S'escriu sense accent.
 súper-Niño|super Niño|super-Niño|súper-el Niño|super-el Niño=Superniño
+me n'anat=me n'he anat
+se n'anat=se n'ha anat
+haver-se n'anat=haver-se'n anat
+haver-se n'adonat=haver-se'n adonat
