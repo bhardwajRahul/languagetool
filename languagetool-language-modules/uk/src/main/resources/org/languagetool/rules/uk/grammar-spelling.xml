@@ -960,6 +960,14 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA
       <example correction="водночас"><marker>в одночас</marker>.</example>
     </rule>
 
+    <rule id="data_center" name="Слова з дата-">
+      <pattern>
+        <token regexp="yes">дата-[а-яіїєґ']+</token>
+      </pattern>
+      <message>Правильно: <suggestion><match no="1" regexp_match="(дата-)([а-яіїєґ']+)" regexp_replace="$2 даних"></match></suggestion></message>
+      <example correction="центру даних">з <marker>дата-центру</marker>.</example>
+    </rule>
+
     <rule id="erroneous_space" name="Зайвий пробіл">
       <!-- |в\s+право|на\s+право - викликає FP з іменником "право" -->
       <!--  
