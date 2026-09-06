@@ -4162,6 +4162,48 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
     -->
   </rule>
 
+  <rule id="SPS00PLUS_VMIP1S0_NC_AQ_20260906" name="In this case is NC.+|AQ.+">
+    <pattern>
+      <token postag='SPS00:.+' postag_regexp='yes'/>
+      <marker>
+        <and>
+          <token postag='NC.+|AQ.+' postag_regexp='yes'/>
+          <token postag='VMIP1S0'/>
+        </and>
+      </marker>
+      <token postag='NC.+|AQ.+' postag_regexp='yes'><exception postag='V.+|RG' postag_regexp='yes'/></token>
+    </pattern>
+    <disambig action="remove" postag="V.+"/>
+    <!--
+    Examples:
+             Lembrei-me, naquele preciso momento, que era a minha esposa.
+             A gente (nesse caso falo de mim mesma) tem a mania de dizer “é péssimo”, “é incrível”.
+             A Recopa Catarinense de 2020 foi a segunda edição deste torneio anual organizado pela Federação Catarinense de Futebol.
+             A verdade hermenêutica estaria envolvida na revelação e na construção do intenso intercâmbio semântico compreendido nos relacionamentos.
+             Alô? Nesse meio tempo, você teve notícias da Tirza?
+             Coloque o seu logotipo e mensagem publicitária neste orçamento AM / FM rádio do banheiro, expandir o seu negócio até mesmo a noite.
+    -->
+  </rule>
+
+  <rule id="SPS00RG_VMIP1S0_RG_20260906" name="In this case is VMIP1S0">
+    <pattern>
+      <token postag='SPS00:RG'/>
+      <marker>
+        <and>
+          <token postag='NC.+|AQ.+' postag_regexp='yes'/>
+          <token postag='VMIP1S0'/>
+        </and>
+      </marker>
+      <token postag='RG'/>
+    </pattern>
+    <disambig action="filter" postag="VMIP1S0"/>
+    <!--
+    Examples:
+             Daí preciso só de tempo.
+             Daí tiro só 2 fatias a cada dia, aqueço na frigid...
+    -->
+  </rule>
+
   <rule id="NP_VERBO_NP_NÃO_VERBO_20260828_RARE" name="É NP.+ não V.+">
     <pattern>
       <marker>
