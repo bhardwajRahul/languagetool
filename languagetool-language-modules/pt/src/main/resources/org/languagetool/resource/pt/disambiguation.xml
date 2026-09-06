@@ -4185,7 +4185,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
     -->
   </rule>
 
-  <rule id="SPS00RG_VMIP1S0_RG_20260906" name="In this case is VMIP1S0">
+  <rule id="SPS00RG_VMIP1S0_RG_RM_20260906" name="In this case is VMIP1S0">
     <pattern>
       <token postag='SPS00:RG'/>
       <marker>
@@ -4194,13 +4194,14 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
           <token postag='VMIP1S0'/>
         </and>
       </marker>
-      <token postag='RG'/>
+      <token postag='RG|RM' postag_regexp='yes'/>
     </pattern>
     <disambig action="filter" postag="VMIP1S0"/>
     <!--
     Examples:
              Daí preciso só de tempo.
              Daí tiro só 2 fatias a cada dia, aqueço na frigid...
+             Daí preciso raramente de tempo.
     -->
   </rule>
 
